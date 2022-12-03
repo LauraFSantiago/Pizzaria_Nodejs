@@ -1,25 +1,22 @@
+<link rel="stylesheet" href="/css/login.css">
 <div class="auth-contaier">
-    <h2>registrar</h2>
-    <form action="/register" method="POST">
-    <div class="form-control">
-        <label for="name">nome</label>
-        <input type="text" name="name" placeholder="digitw seu nome" required>
-    </div>
+        <div  id="login">
+                    <div id="Logo">
+                        <img src="/img/pizza.png" id="logo"/>
+                    </div><!--logo-->
 
-    <div class="form-control">
-        <label for="email">email</label>
-        <input type="email" name="email" placeholder="digitw seu email" required>
-    </div>
+                <div  class="bemVindo">
+                    <h1>João Pizzas's</h1>
+                </div><!--Texto-->
 
-    <div class="form-control">
-        <label for="password">senha</label>
-        <input type="password" name="password" placeholder="digitw sua senha" required>
+                </div>
+    <form action="/register" method="POST" class="form" id="loginForm">
+        <input type="text" name="name" placeholder="Digite seu Nome" required>
+        <input type="email" name="email" placeholder="Digite seu E-mail" required>
+        <input type="password" name="password" placeholder="Digite sua senha" required>
+        <input type="password" name="confirmpassword" placeholder="Confirme sua senha" required>
+    <div class="divBtn">
+    <input class="btn" id="btn" type="submit" value="Cadastrar">
     </div>
-
-    <div class="form-control">
-        <label for="confirmpassword">confrim senha</label>
-        <input type="password" name="confirmpassword" placeholder="confirme sua senha" required>
-    </div>
-    <input type="submit" value="Cadastrar">
    </form>
 </div>
