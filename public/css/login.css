@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffd68a;
+    color: #ff4500;
+}
+
+
+.bemVindo{
+    display:grid;
+    justify-content:left;
+    align-items: center;
+    margin-top: 7vh;
+    
+}
+.bemVindo h1{
+    font-size:40px; 
+    margin-bottom: 2vh;
+    font-family:monospace;
+    color:#ff4500;
+    margin-left: 5vw;
+}
+
+#opcLogin{
+    margin-right: 5vw;
+}
+
+.btn{
+	border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+    align-self: center;
+    border: none;
+    margin-top: 1rem;
+}
+.container{
+    margin-top: 10vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    
+}
+.form{
+    display: grid;
+    
+}
+
+.form input {
+    height: 6vh;
+    width: 30vw;
+	border: 1px solid #ffff;
+    background-color: #ffb834;
+    margin-bottom: 3vh;
+}
+
+.divBtn input{
+    height: 6vh;
+    width: 15vw;
+	color: #ffff;
+    background-color: #ff4500;
+    margin-left:8vw;
+}
+.firstContent{
+    margin-top: 10vh;
+    width: 100%;
+    margin-left: 32vw;
+    display: block;
+}
+
+#logo{
+    width: 10vw;
+    margin-top: 0;
+    margin-left: 12vw;
+    
+}
+header{
+    display: none;
+}
+@media only screen and (max-width: 650px){
+    .form input {
+        height: 6vh;
+        width: 70vw;
+
+    }
+    #logo{
+        width: 20vw;
+        margin-bottom: 50vw;
+        margin-left: 30vw;
+        margin-right: 0;
+        
+    }
+    .inputlogin{
+        margin-right: 10vw;
+    }
+    .bemVindo{
+        margin-top: 0;
+        margin-bottom: 5vh;
+        text-align: center;
+        margin-left: 10vw;
+    }
+    .bemVindo h1{
+        margin-left: 0;
+        font-size: 25px;
+    }
+    input{
+        margin-right:30vw;
+    }
+    #btn{
+        width: 50vw;
+    }
+    .firstContent{
+        margin-bottom: 20vh;
+    }
+    #logo{
+        margin-bottom: 10px;
+    }
+    header{
+        display: none;
+    }
+}

@@ -1,0 +1,77 @@
+html, body{
+    height: 100%;
+    background-color: #FFD68A;
+}
+#brand-logo{
+    width: 50px;
+}
+
+.navbar.navbar-expand-lg{
+    background-color: #FFB834;
+    font-weight: bold;
+}
+
+.navbar.navbar-expand-lg a{
+    color: #fff;
+}
+
+#main-container{
+    margin-bottom: 100px;
+    padding: 50px 0;
+    text-align: center;
+    min-height: 50%;
+}
+
+#main-container h2{
+    margin-bottom: 30px;
+}
+.row{
+    margin: 0;
+}
+#pizza-form{
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+.btn.btn-primary{
+    background-color:#FF4500 ;
+    border-color:#ffff;
+}
+label{
+    color: #FF4500;
+}
+h2{
+    color: #FF4500;
+}
+#borda.form-control{
+    background-color: #ffc75f;
+    color: #ff6600;
+    border: 1 px solid#0000;
+}
+#massa.form-control{
+    background-color: #ffc75f;
+    color: #ff6600;
+    border: 1 px solid#0000;
+}
+#sabores.form-control{
+    background-color: #ffc75f;
+    color: #ff6600;
+    border: 1 px solid#0000;
+}
+#linkDashboard{
+    text-align: right;
+    
+}
+/*messages*/
+.message{
+    padding: 1em;
+    color: green;
+    background-color: aliceblue;
+    border: 1px solid #FFD68A;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto 2em;
+    max-width: 60%;
+}
